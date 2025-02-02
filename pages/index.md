@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ARCZIP"
+---
+
 # ARCZIP
 
 ARCZIP is common data format for storing the game state of [Leder Games' Arcs](https://ledergames.com/products/arcs).

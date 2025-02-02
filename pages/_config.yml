@@ -1,0 +1,4 @@
+title: "ARCZIP documentation"
+description: "ARCZIP documentation and specification"
+theme: minima  # Optional: Use GitHub's built-in theme
+markdown: kramdown  # Default Markdown engine
