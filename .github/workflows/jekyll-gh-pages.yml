@@ -1,4 +1,3 @@
-# Sample workflow for building and deploying a Jekyll site with Just the Docs theme
 name: Deploy Jekyll with Just the Docs
 
 on:
@@ -25,16 +24,19 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Use a version compatible with your setup
+          ruby-version: '3.1'  # Adjust based on compatibility
           bundler-cache: true
 
       - name: Install Dependencies
         run: |
+          cd docs
           gem install bundler
           bundle install
 
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --trace
+      - name: Build with Jekyll (Using docs/ as Source)
+        run: |
+          cd docs
+          bundle exec jekyll build --source . --destination ../_site --trace
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
