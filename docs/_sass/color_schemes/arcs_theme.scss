@@ -1,24 +1,23 @@
 @import "./color_schemes/dark";
 
-// $body-background-color: #000;
+$body-background-color: #292a25;
 // $body-heading-color: $grey-lt-000;
 // $body-text-color: $grey-lt-300;
-// $link-color: $blue-000;
-// $nav-child-link-color: $grey-dk-000;
-// $sidebar-color: #000;
+// $link-color: #c39944;
+// $nav-child-link-color: #bfb8c2;
+$sidebar-color: #1e1f1a;
 // $base-button-color: $grey-dk-250;
-// $btn-primary-color: $blue-200;
+$btn-primary-color: #c39944 ;
 // $code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
 // $code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
 // $feedback-color: darken($sidebar-color, 3%);
 // $table-background-color: $grey-dk-250;
 // $search-background-color: $grey-dk-250;
 // $search-result-preview-color: $grey-dk-000;
-// $border-color: $grey-dk-200;
+$border-color: #646560;
 
 
 // Colors
-
 $white: #fff !default;
 $grey-dk-000: #959396 !default;
 $grey-dk-100: #5c5962 !default;
@@ -49,6 +48,7 @@ $red-000: #f77e7e !default;
 $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
+// $arcs-gold: #c39944 !default;
 
 .table-wrapper:has(.custom-table) {
     width: fit-content;
@@ -59,9 +59,25 @@ $red-300: #dd2e2e !default;
         padding-bottom: 0.25rem !important;
     }
 }
-// .site-title {
-//     padding: 0;
-// }
+
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active {
+    background-image: linear-gradient(-90deg, #292a25 0%, #1e1f1a 80%, #1e1f1a 100%) !important;
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover {
+    background-image: linear-gradient(-90deg, #292a25 0%, #292a25 100%) !important; 
+}
+
+nav .nav-list svg,
+#menu-button svg,
+nav a {
+    color:#c39944 !important;
+}
+
+nav ul ul a {
+    color:#bfb8c2 !important;
+}
 
 .custom-table {
     min-width: fit-content; /* Prevents the table from shrinking too much */
