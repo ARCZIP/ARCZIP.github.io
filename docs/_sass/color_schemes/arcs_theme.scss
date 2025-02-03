@@ -1,11 +1,11 @@
 @import "./color_schemes/dark";
 
-$body-background-color: #292a25;
+$body-background-color: #292a25 !important;
 // $body-heading-color: $grey-lt-000;
 // $body-text-color: $grey-lt-300;
 // $link-color: #c39944;
 // $nav-child-link-color: #bfb8c2;
-$sidebar-color: #1e1f1a;
+$sidebar-color: #1e1f1a !important;
 // $base-button-color: $grey-dk-250;
 $btn-primary-color: #c39944 ;
 // $code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
@@ -80,16 +80,12 @@ nav ul ul a {
 }
 
 .custom-table {
-    min-width: fit-content; /* Prevents the table from shrinking too much */
-    margin: 0;  /* Centers the table */
+    width: 100%;
     border-collapse: collapse;
-}
-
-.custom-table th {
-    padding: 8px;
-    max-width: fit-content;
-}
-.custom-table td {
-    padding: 8px;
-    max-width: fit-content;
+    margin: 0 auto; /* Centers the table */
+    
+    th, td {
+        padding: 8px;
+        max-width: fit-content;
+    }
 }
