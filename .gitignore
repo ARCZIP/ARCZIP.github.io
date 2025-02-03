@@ -1,1 +1,4 @@
 *.psd
+pages/Gemfile.lock
+pages/_site/*
+pages/.jekyll-cache/*
