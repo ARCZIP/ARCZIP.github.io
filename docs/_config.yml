@@ -1,10 +1,25 @@
 title: "ARCZIP documentation"
 description: "ARCZIP documentation and specification"
-theme: minima  # Optional: Use GitHub's built-in theme
+# theme: minima  # Optional: Use GitHub's built-in theme
+theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+color_scheme: arcs_theme
+logo: "/assets/img/icon.png"
+favicon_ico: "/assets/img/favi.ico"
+back_to_top: true
+back_to_top_text: "Back to top"
+search_enabled: true
+
+
+
+
 markdown: kramdown  # Default Markdown engine
 plugins:
   - jekyll-feed
-  - github-pages
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - remote theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

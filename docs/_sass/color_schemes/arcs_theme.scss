@@ -1,0 +1,79 @@
+@import "./color_schemes/dark";
+
+// $body-background-color: #000;
+// $body-heading-color: $grey-lt-000;
+// $body-text-color: $grey-lt-300;
+// $link-color: $blue-000;
+// $nav-child-link-color: $grey-dk-000;
+// $sidebar-color: #000;
+// $base-button-color: $grey-dk-250;
+// $btn-primary-color: $blue-200;
+// $code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+// $code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+// $feedback-color: darken($sidebar-color, 3%);
+// $table-background-color: $grey-dk-250;
+// $search-background-color: $grey-dk-250;
+// $search-result-preview-color: $grey-dk-000;
+// $border-color: $grey-dk-200;
+
+
+// Colors
+
+$white: #fff !default;
+$grey-dk-000: #959396 !default;
+$grey-dk-100: #5c5962 !default;
+$grey-dk-200: #44434d !default;
+$grey-dk-250: #302d36 !default;
+$grey-dk-300: #27262b !default;
+$grey-lt-000: #f5f6fa !default;
+$grey-lt-100: #eeebee !default;
+$grey-lt-200: #ecebed !default;
+$grey-lt-300: #e6e1e8 !default;
+$purple-000: #7253ed !default;
+$purple-100: #5e41d0 !default;
+$purple-200: #4e26af !default;
+$purple-300: #381885 !default;
+$blue-000: #2c84fa !default;
+$blue-100: #2869e6 !default;
+$blue-200: #264caf !default;
+$blue-300: #183385 !default;
+$green-000: #41d693 !default;
+$green-100: #11b584 !default;
+$green-200: #009c7b !default;
+$green-300: #026e57 !default;
+$yellow-000: #ffeb82 !default;
+$yellow-100: #fadf50 !default;
+$yellow-200: #f7d12e !default;
+$yellow-300: #e7af06 !default;
+$red-000: #f77e7e !default;
+$red-100: #f96e65 !default;
+$red-200: #e94c4c !default;
+$red-300: #dd2e2e !default;
+
+.table-wrapper:has(.custom-table) {
+    width: fit-content;
+}
+@media (min-width: 10rem) {
+    .site-title {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+    }
+}
+// .site-title {
+//     padding: 0;
+// }
+
+.custom-table {
+    min-width: fit-content; /* Prevents the table from shrinking too much */
+    margin: 0;  /* Centers the table */
+    border-collapse: collapse;
+}
+
+.custom-table th {
+    padding: 8px;
+    max-width: fit-content;
+}
+.custom-table td {
+    padding: 8px;
+    max-width: fit-content;
+}
