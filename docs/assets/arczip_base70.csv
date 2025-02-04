@@ -59,7 +59,7 @@ number,encoded_char
 57,(
 58,)
 59,+
-60,comma
+60,^
 61,.
 62,/
 63,:

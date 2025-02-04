@@ -11,7 +11,7 @@ parent: Block Specification
 {: .warning }
 This block must always be included in ARCZIP
 
-Concatenate all characters from the table below together:
+Concatenate all characters from the table below together into one string. Don't forget to terminate the block with a `-` character.
 
 {% capture s_1 %}
 `A` - The block ID for Game Info
@@ -38,6 +38,7 @@ Example 2 - If Clusters 2 and 5 are out of play, `101101 => 45  => B70(45 ) => '
 Encode the player order around the table and current initiative holder.
 
 The mapping is available as a CSV [here](../../assets/arczip_player_order.csv)
+
 Or reference the following table. (Initiative holder is first and bolded)
 
 <details>
