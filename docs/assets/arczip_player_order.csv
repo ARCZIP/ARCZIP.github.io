@@ -1,0 +1,61 @@
+player_order,number,encoded_char
+red white teal yellow,1,B
+red white yellow teal,2,C
+red teal white yellow,3,D
+red teal yellow white,4,E
+red yellow white teal,5,F
+red yellow teal white,6,G
+white red teal yellow,7,H
+white red yellow teal,8,I
+white teal red yellow,9,J
+white teal yellow red,10,K
+white yellow red teal,11,L
+white yellow teal red,12,M
+teal red white yellow,13,N
+teal red yellow white,14,O
+teal white red yellow,15,P
+teal white yellow red,16,Q
+teal yellow red white,17,R
+teal yellow white red,18,S
+yellow red white teal,19,T
+yellow red teal white,20,U
+yellow white red teal,21,V
+yellow white teal red,22,W
+yellow teal red white,23,X
+yellow teal white red,24,Y
+red white teal,25,Z
+red white yellow,26,a
+red teal white,27,b
+red teal yellow,28,c
+red yellow white,29,d
+red yellow teal,30,e
+white red teal,31,f
+white red yellow,32,g
+white teal red,33,h
+white teal yellow,34,i
+white yellow red,35,j
+white yellow teal,36,k
+teal red white,37,l
+teal red yellow,38,m
+teal white red,39,n
+teal white yellow,40,o
+teal yellow red,41,p
+teal yellow white,42,q
+yellow red white,43,r
+yellow red teal,44,s
+yellow white red,45,t
+yellow white teal,46,u
+yellow teal red,47,v
+yellow teal white,48,w
+red white,49,x
+red teal,50,y
+red yellow,51,z
+white red,52,!
+white teal,53,#
+white yellow,54,$
+teal red,55,%
+teal white,56,&
+teal yellow,57,(
+yellow red,58,)
+yellow white,59,+
+yellow teal,60,comma

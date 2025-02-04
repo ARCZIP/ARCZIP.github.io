@@ -28,3 +28,7 @@ The ARCZIP data format must:
 - Be text-based and sharable over Discord (< 2000 characters)
 - Be compressable and decompressable in any programming language (no dependency on specific libraries)
 - Have versioning encoded to enable expansion for new game content
+
+The ARCZIP data format will not:
+- Encode game states in the middle of a player's turn or in the middle of a player's action
+  - This greatly increases complexity and may be re-assessed down the line if there is demand.

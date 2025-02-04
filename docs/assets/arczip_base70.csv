@@ -1,4 +1,4 @@
-number,encoded_number
+number,encoded_char
 0,A
 1,B
 2,C
@@ -59,7 +59,7 @@ number,encoded_number
 57,(
 58,)
 59,+
-60,,
+60,comma
 61,.
 62,/
 63,:
