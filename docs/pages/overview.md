@@ -15,7 +15,7 @@ Disclaimer: This project is not an official Leder Games product. Arcs and its re
 ## Why create a common data format?
 Having a common data format allows many applications related to the game to easily communicate with each other. Some examples:
 
-- Transferring an in-progress game freely between a Virtual Tabletop Platform (Tabletop Simulator, Tabletop Playground, hrf.im) and the physical board game (with state created/loaded via an app)
+- Transferring an in-progress game freely between a Virtual Tabletop Platform (Tabletop Simulator, Tabletop Playground, etc) and the physical board game (with state created/loaded via an app)
 - Creating mid-game scenarios to be shared and replayed.
 - Export from a Virtual Tabletop to a discord bot or stream overlay to provide game info to viewers or log moves to a replayable format
 - Discord bot to play the game asynchroncously with a server side implementation of game logic
