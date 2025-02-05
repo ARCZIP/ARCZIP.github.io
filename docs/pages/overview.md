@@ -23,7 +23,7 @@ Having a common data format allows many applications related to the game to easi
 ## Requirements
 
 The ARCZIP data format must:
-- Support capturing the game state such that it can be recovered the game could be played
+- Support capturing the game state such that it can be recovered in a playable state
 - Handle both Base game and the Blighted Reach expansion
 - Be text-based and sharable over Discord (< 2000 characters)
 - Be compressable and decompressable in any programming language (no dependency on specific libraries)
